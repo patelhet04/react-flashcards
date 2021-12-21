@@ -83,6 +83,7 @@ const App = () => {
 					/>
 				</div>
 				<div className="form-group">
+					<label for="number">Generate Questions</label>
 					<button className="button">Generate</button>
 				</div>
 			</form>

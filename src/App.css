@@ -26,9 +26,6 @@ body {
 	transition: 400ms;
 	transform-style: preserve-3d;
 	cursor: pointer;
-	/* background: linear-gradient(135deg, #243b55, #141e30); */
-	/* background-color: #2b4162;
-	background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%); */
 	background-color: #2d3436;
 	background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
@@ -72,12 +69,17 @@ body {
 	padding: 0 1.5rem;
 	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
 }
+@media screen and (max-width: 992px) {
+	.header {
+		background-color: blue;
+	}
+}
 
 .form-group {
 	display: flex;
 	flex-direction: column;
-	margin: 1rem;
-	margin-bottom: 2rem;
+	margin: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 .form-group > label {
@@ -90,7 +92,7 @@ input {
 }
 
 .button {
-	margin-top: 1.8rem;
+	/* margin-top: 1.8rem; */
 	padding: 0.3em 2.1em;
 	border-radius: 0.2em;
 	border: none;
