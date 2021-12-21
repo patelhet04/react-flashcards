@@ -69,12 +69,6 @@ body {
 	padding: 0 1.5rem;
 	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
 }
-@media screen and (max-width: 992px) {
-	.header {
-		background-color: blue;
-	}
-}
-
 .form-group {
 	display: flex;
 	flex-direction: column;
